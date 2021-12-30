@@ -4,7 +4,7 @@ function Randomize(pmax: number): number{
 };
 
 function CustomRandomChar(pCount: number = 15): string {
-    const Chars = '2uPQv6ABCmDEGlnHZIKL5tNO9RSTUVW7XYMabc4defJhijkoFpqr3swx8yz';
+    const Chars = '2uPQv6ACkmDfTElnHZKjLw5tNO9RzGSe7XYVabc4dIBJhiMxoFpqr3sW8yU';
     let S: string;
     let N: number;
     S = '';
