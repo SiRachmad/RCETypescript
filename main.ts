@@ -25,7 +25,7 @@ function onShow() {
 function onbtnGenerateClick() {
     let dObj = document.getElementById('pnlDaftar');
     let edText = (document.getElementById('edText') as HTMLInputElement);
-    for (let i = 0; i <= Number(edText.value); i++) {
+    for (let i = 1; i <= Number(edText.value); i++) {
         let lObj = document.createElement('li');
         lObj.id = CustomRandomChar(6);
         lObj.innerHTML = 'List Index '+i;
