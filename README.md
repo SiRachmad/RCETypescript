@@ -4,5 +4,5 @@ RCETypescript(Runtime Create Element Typescript) demonstrasi sederhana pembuatan
 # instalasi
 - Download atau gunakan git clone
 - Pastikan sudah menginstall typescript via npm atau npx
-- Compile index.ts dengan perintah "tsc .\index.ts"
+- Compile main.ts dengan perintah "tsc .\main.ts"
 - Jalankan seperti pada umum nya
