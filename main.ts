@@ -1,6 +1,6 @@
-function Randomize(max: number): number{
+function Randomize(pmax: number): number{
     let min = 1;
-    return Math.floor(Math.random() * (max - min + 1)) +min;
+    return Math.floor(Math.random() * (pmax - min + 1)) +min;
 };
 
 function CustomRandomChar(pCount: number = 15): string {
