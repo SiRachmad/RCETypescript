@@ -10,7 +10,7 @@ function CustomRandomChar(pCount: number = 15): string {
     S = '';
     for (let i = 1; i < pCount; i++) {
         N = Randomize(Chars.length);
-        S = S + Chars[N];
+        S = S + Chars[N-1];
     };
     return S;
 };
